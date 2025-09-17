@@ -56,53 +56,28 @@ export const projectsData = [
 
 export const experiencesData = [
   {
-    title: 'Web developer intern',
-    company: 'WEB-BOX, Tarnobrzeg PL',
+    title: '10th Board - 92.4%',
+    company: 'Khatra Sishu Niketan,Khatra,Bankura',
     description:
-      'During this internship, I focused on two key areas: creating Wordpress plugins and managing website content, plugins, and settings.',
-    period: '2023',
-    technologies: ['HTML', 'CSS', 'JavaScript', 'Wordpress'],
+      'I completed my 10th board examinations with a score of 92.4% from Khatra Sishu Niketan. This achievement reflects my dedication and commitment to academic excellence during my early education.',
+    period: '-2020',
+    technologies: [],
   },
   {
-    title: 'Frontend developer & UI designer',
-    company: 'Freelancing, remote',
+    title: '12th Board - 92.3%',
+    company: 'Khatra High School,Khatra,Bankura',
     description:
-      'As a freelancer, I specialized in graphic design using Figma and website development using Next.js with Sanity CMS. I undertook projects independently, from design conceptualization to final implementation, ensuring client satisfaction.',
-    period: '2023 - 2024',
-    technologies: ['Next.js', 'TypeScript', 'Sanity CMS', 'Tailwind'],
+      'I completed my 12th board examinations with a score of 92.3% from Khatra High School. This accomplishment highlights my continued dedication to academic excellence and my ability to excel in a competitive environment.',
+    period: '2020 - 2022',
+    technologies: [],
   },
   {
-    title: 'Frontend developer intern',
-    company: 'Chop-chop, remote',
+    title: 'Information Technology Undergraduate',
+    company: 'Netaji Subhash Engineering College, Kolkata',
     description:
-      'During my internship at Chop-Chop, I collaborated with an experienced IT team, focusing on tasks in Next.js. This experience provided valuable insights into teamwork and advanced my proficiency in Next.js.',
-    period: '2024',
-    technologies: ['Next.js', 'React', 'TypeScript', 'Tailwind'],
-  },
-  {
-    title: 'Frontend developer & UI designer',
-    company: 'GeoScan, remote',
-    description: (
-      <>
-        At GeoScan, I collaborate with frontend, backend, and GIS specialists to
-        build{' '}
-        <Link
-          className={cn(
-            buttonVariants({ variant: 'link' }),
-            'm-0 h-fit p-0 text-base'
-          )}
-          href="https://geoscan-app.com"
-          target="_blank"
-        >
-          geoscan-app.com
-        </Link>{' '}
-        — a platform for generating real estate reports. I’m responsible for
-        developing and maintaining the frontend, as well as designing UI/UX to
-        ensure a clear and intuitive user experience.
-      </>
-    ),
-    period: '2024 - present',
-    technologies: ['Next.js', 'TypeScript', 'Tailwind', 'Supabase', 'Leaflet'],
+      'I am currently pursuing my undergraduate studies in Information Technology at Netaji Subhash Engineering College, Kolkata. This program is providing me with a strong foundation in computer science and practical experience in software development, algorithms, and problem-solving.',
+    period: '2023-present',
+    technologies: ['C', 'Python', 'Java', 'HTML' ,'CSS','Javascript','React','Node.js','Express.js','MongoDB'],
   },
 ] as const;
 

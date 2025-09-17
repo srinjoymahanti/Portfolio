@@ -55,8 +55,8 @@ export const Intro = () => {
         }}
         className="text-muted-foreground max-w-xl"
       >
-        A MERN stack developer based in the Poland. I&#39;m passionate about
-        building modern web applications using Next.js, React, and Tailwind CSS.
+        A MERN stack developer based in the INDIA. I&#39;m passionate about
+        building modern web applications using React,Express.Js and Tailwind CSS.
       </motion.p>
       <motion.div
         initial={{ opacity: 0, y: 100 }}
@@ -73,7 +73,7 @@ export const Intro = () => {
         </Button>
 
         <Button variant="outline" size="lg" className="hidden sm:flex" asChild>
-          <a href="/michalskolak.pdf" download>
+          <a href="//Cv" download>
             Download CV <Icons.download className="ml-2 size-4" />
           </a>
         </Button>

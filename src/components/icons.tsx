@@ -1,4 +1,5 @@
 import {
+  Instagram,
   ArrowRight,
   Briefcase,
   Building2,
@@ -76,6 +77,7 @@ export const Icons = {
   ),
   github: Github,
   linkedin: Linkedin,
+  instagram: Instagram,
   html: (props: LucideProps) => (
     <svg viewBox="0 0 50 50" {...props}>
       <path
@@ -92,6 +94,7 @@ export const Icons = {
       />
     </svg>
   ),
+  
   sass: (props: LucideProps) => (
     <svg viewBox="0 0 50 50" {...props}>
       <g clipPath="url(#clip0_717_61)">

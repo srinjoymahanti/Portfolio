@@ -98,6 +98,17 @@ export const Intro = () => {
           </Link>
         </Button>
 
+        <Button variant="outline" size="icon" asChild>
+          <Link
+            href="https://www.instagram.com/srinjoymahanti/"
+            aria-label="Instagram"
+            target="_blank"
+          >
+            <Icons.instagram className="size-5" />
+          </Link>
+        </Button>
+        
+
       </motion.div>
     </section>
   );

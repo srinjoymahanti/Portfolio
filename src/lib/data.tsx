@@ -29,27 +29,27 @@ export const links = [
 
 export const projectsData = [
   {
-    image: '/images/project-2.webp',
-    title: 'Next-starter',
+    image: '/images/project-2.png',
+    title: 'Streamify',
     description:
-      'A Next.js starter template, packed with features like TypeScript, Tailwind CSS, Next-auth, Eslint, Stripe, testing tools and more.',
-    technologies: ['Next.js', 'Tailwind', 'Shadcn/ui', 'Next-auth', 'Prisma'],
+      'A video callling web application that allows users to connect with friends and family in real-time. Built with React, Tailwind CSS',
+    technologies: ['React', 'JavaScript', 'Tailwind', 'Mongoose'],
     links: {
-      preview: 'https://next-starter-skolaczk.vercel.app',
-      github: 'https://github.com/Skolaczk/next-starter',
-      githubApi: 'https://api.github.com/repos/Skolaczk/next-starter',
+      preview: '',
+      github: 'https://github.com/srinjoymahanti/streamify-video-calls-master',
+      githubApi: 'https://api.github.com/repos/srinjoymahanti/streamify-video-calls-master',
     },
   },
   {
-    image: '/images/project-1.webp',
-    title: 'SocialHub',
+    image: '/images/project-1.png',
+    title: 'Imagify',
     description:
-      'SocialHub is a next-generation social media app developed using Next.js and Nest.js.',
-    technologies: ['Next.js', 'TypeScript', ' Nest.js', 'Tailwind', 'Prisma'],
+      'An AI-powered image generation app that allows users to create unique images based on text prompts. Built with React, Tailwind CSS, and OpenAI API.',
+    technologies: ['React', 'TypeScript', 'Tailwind', 'OpenAI API'],
     links: {
-      preview: 'https://socialhub-ms.vercel.app/',
-      github: 'https://github.com/Skolaczk/SocialHub',
-      githubApi: 'https://api.github.com/repos/Skolaczk/SocialHub',
+      preview: '',
+      github: 'https://github.com/srinjoymahanti/TextToImageGenerator',
+      githubApi: 'https://api.github.com/repos/srinjoymahanti/TextToImageGenerator',
     },
   },
 ] as const;

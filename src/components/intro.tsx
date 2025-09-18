@@ -45,7 +45,6 @@ export const Intro = () => {
           Srinjoy Mahanti
         </span>{' '}
         <br />
-        a Full Stack Developer.
       </motion.h1>
       <motion.p
         initial={{ opacity: 0, y: 100 }}
@@ -55,8 +54,8 @@ export const Intro = () => {
         }}
         className="text-muted-foreground max-w-xl"
       >
-        A MERN stack developer based in the INDIA. I&#39;m passionate about
-        building modern web applications using React,Express.Js and Tailwind CSS.
+        A software developer with a passion for creating seamless digital experiences.
+        I specialize in building robust applications that solve real-world problems. Let's connect and create something impactful together.
       </motion.p>
       <motion.div
         initial={{ opacity: 0, y: 100 }}

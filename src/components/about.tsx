@@ -23,7 +23,7 @@ export const About = () => {
         <p className="mb-4">
           I am Srinjoy Mahanti, an Information Technology undergraduate with a 
           solid foundation in computer science and practical experience in software 
-          development, algorithms, and problem-solving. Skilled in C, C++, Python, and 
+          development, algorithms, and problem-solving. Skilled in C, Java, Python, and 
           JavaScript, I also work with modern frameworks like React and Next.js. My academic 
           interests span compiler design, operating systems, cryptography, automata theory, 
           and data science, strengthening my analytical and research skills. Beyond academics, 

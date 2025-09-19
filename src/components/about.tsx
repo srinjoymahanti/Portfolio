@@ -25,7 +25,7 @@ export const About = () => {
           solid foundation in computer science and practical experience in software 
           development, algorithms, and problem-solving. Skilled in C, Java, Python, and 
           JavaScript, I also work with modern frameworks like React and Next.js. My academic 
-          interests span compiler design, operating systems, cryptography, automata theory, 
+          interests span compiler design, operating systems, automata theory, 
           and data science, strengthening my analytical and research skills. Beyond academics, 
           I engage in competitive programming, project development, and open-source contributions. 
           Passionate about bridging theory with practice, I aim to grow as a developer and 

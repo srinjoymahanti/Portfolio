@@ -1,10 +1,10 @@
-'use client';
+"use client";
 
-import { motion } from 'framer-motion';
-import Image from 'next/image';
-import Link from 'next/link';
+import { motion } from "framer-motion";
+import Image from "next/image";
+import Link from "next/link";
 
-import { projectsData } from '@/lib/data';
+import { projectsData } from "@/lib/data";
 
 type TProject = (typeof projectsData)[number];
 

@@ -1,21 +1,21 @@
-'use client';
+"use client";
 
-import { useState } from 'react';
-import { motion } from 'framer-motion';
-import Link from 'next/link';
+import { useState } from "react";
+import { motion } from "framer-motion";
+import Link from "next/link";
 
-import { useActiveSection } from '@/components/active-section-provider';
-import { Button } from '@/components/button';
+import { useActiveSection } from "@/components/active-section-provider";
+import { Button } from "@/components/button";
 import {
   Dialog,
   DialogContent,
   DialogHeader,
   DialogTitle,
   DialogTrigger,
-} from '@/components/dialog';
-import { Icons } from '@/components/icons';
-import { ThemeToggle } from '@/components/theme-toggle';
-import { links } from '@/lib/data';
+} from "@/components/dialog";
+import { Icons } from "@/components/icons";
+import { ThemeToggle } from "@/components/theme-toggle";
+import { links } from "@/lib/data";
 
 export const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -80,7 +80,7 @@ export const Header = () => {
                     className="bg-muted absolute inset-0 -z-10 rounded-full"
                     layoutId="activeSection"
                     transition={{
-                      type: 'spring',
+                      type: "spring",
                       stiffness: 380,
                       damping: 30,
                     }}

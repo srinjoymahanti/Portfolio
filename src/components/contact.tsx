@@ -1,21 +1,21 @@
-'use client';
+"use client";
 
-import { useForm } from 'react-hook-form';
-import { zodResolver } from '@hookform/resolvers/zod';
-import { motion } from 'framer-motion';
-import Link from 'next/link';
-import { toast } from 'sonner';
+import { useForm } from "react-hook-form";
+import { zodResolver } from "@hookform/resolvers/zod";
+import { motion } from "framer-motion";
+import Link from "next/link";
+import { toast } from "sonner";
 
-import { sendEmailAction } from '@/actions/send-email';
-import { Button } from '@/components/button';
-import { Icons } from '@/components/icons';
-import { SectionHeading } from '@/components/section-heading';
-import { useSectionInView } from '@/hooks/use-section-in-view';
-import { formSchema, TFormSchema } from '@/lib/form-schema';
-import { cn } from '@/lib/utils';
+import { sendEmailAction } from "@/actions/send-email";
+import { Button } from "@/components/button";
+import { Icons } from "@/components/icons";
+import { SectionHeading } from "@/components/section-heading";
+import { useSectionInView } from "@/hooks/use-section-in-view";
+import { formSchema, TFormSchema } from "@/lib/form-schema";
+import { cn } from "@/lib/utils";
 
 export const Contact = () => {
-  const { ref } = useSectionInView('Contact');
+  const { ref } = useSectionInView("Contact");
   const {
     register,
     handleSubmit,
@@ -57,7 +57,7 @@ export const Contact = () => {
         heading="Get In Touch"
         content={
           <>
-            Please contact me directly at{' '}
+            Please contact me directly at{" "}
             <Button
               variant="link"
               className="text-muted-foreground hover:text-foreground h-fit p-0 font-medium underline transition-colors"
@@ -66,7 +66,7 @@ export const Contact = () => {
               <Link href="mailto:srinjoymahanti@gmail.com">
                 srinjoymahanti@gmail.com
               </Link>
-            </Button>{' '}
+            </Button>{" "}
             or through this form.
           </>
         }
@@ -79,8 +79,8 @@ export const Contact = () => {
           <label
             htmlFor="email"
             className={cn(
-              'text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70',
-              errors.email?.message && 'text-destructive'
+              "text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70",
+              errors.email?.message && "text-destructive"
             )}
           >
             Email
@@ -89,10 +89,10 @@ export const Contact = () => {
             type="email"
             id="email"
             placeholder="hello@gmail.com"
-            {...register('email')}
+            {...register("email")}
             className={cn(
-              'border-input bg-background ring-offset-background placeholder:text-muted-foreground focus-visible:ring-ring mt-2 flex h-10 w-full rounded-md border px-3 py-2 text-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50',
-              errors.email?.message && 'border-destructive'
+              "border-input bg-background ring-offset-background placeholder:text-muted-foreground focus-visible:ring-ring mt-2 flex h-10 w-full rounded-md border px-3 py-2 text-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50",
+              errors.email?.message && "border-destructive"
             )}
           />
           {errors.email?.message && (
@@ -105,8 +105,8 @@ export const Contact = () => {
           <label
             htmlFor="message"
             className={cn(
-              'text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70',
-              errors.message?.message && 'text-destructive'
+              "text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70",
+              errors.message?.message && "text-destructive"
             )}
           >
             Message
@@ -114,10 +114,10 @@ export const Contact = () => {
           <textarea
             id="message"
             placeholder="Hello! What's up?"
-            {...register('message')}
+            {...register("message")}
             className={cn(
-              'border-input bg-background ring-offset-background placeholder:text-muted-foreground focus-visible:ring-ring mt-2 flex h-60 w-full resize-none rounded-md border px-3 py-2 text-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50',
-              errors.message?.message && 'border-destructive'
+              "border-input bg-background ring-offset-background placeholder:text-muted-foreground focus-visible:ring-ring mt-2 flex h-60 w-full resize-none rounded-md border px-3 py-2 text-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50",
+              errors.message?.message && "border-destructive"
             )}
           ></textarea>
           {errors.message?.message && (

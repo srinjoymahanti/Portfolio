@@ -1,13 +1,13 @@
-'use client';
+"use client";
 
-import { motion } from 'framer-motion';
+import { motion } from "framer-motion";
 
-import { SectionHeading } from '@/components/section-heading';
-import { Skills } from '@/components/skills';
-import { useSectionInView } from '@/hooks/use-section-in-view';
+import { SectionHeading } from "@/components/section-heading";
+import { Skills } from "@/components/skills";
+import { useSectionInView } from "@/hooks/use-section-in-view";
 
 export const About = () => {
-  const { ref } = useSectionInView('About');
+  const { ref } = useSectionInView("About");
 
   return (
     <motion.section

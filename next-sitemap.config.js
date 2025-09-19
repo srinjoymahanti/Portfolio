@@ -1,8 +1,8 @@
 module.exports = {
-  siteUrl: process.env.SITE_URL || '',
+  siteUrl: process.env.SITE_URL || "",
   generateRobotsTxt: true,
   generateIndexSitemap: false,
   robotsTxtOptions: {
-    policies: [{ userAgent: '*', allow: '/' }],
+    policies: [{ userAgent: "*", allow: "/" }],
   },
 };

@@ -1,16 +1,16 @@
-'use client';
+"use client";
 
-import React from 'react';
-import { motion } from 'framer-motion';
+import React from "react";
+import { motion } from "framer-motion";
 
-import { Icons } from '@/components/icons';
-import { SectionHeading } from '@/components/section-heading';
-import { useSectionInView } from '@/hooks/use-section-in-view';
-import { experiencesData } from '@/lib/data';
-import { cn } from '@/lib/utils';
+import { Icons } from "@/components/icons";
+import { SectionHeading } from "@/components/section-heading";
+import { useSectionInView } from "@/hooks/use-section-in-view";
+import { experiencesData } from "@/lib/data";
+import { cn } from "@/lib/utils";
 
 export const Experience = () => {
-  const { ref: sectionRef } = useSectionInView('Experience');
+  const { ref: sectionRef } = useSectionInView("Experience");
 
   return (
     <section
@@ -44,7 +44,7 @@ export const Experience = () => {
                 viewport={{
                   once: true,
                 }}
-                className={cn('space-y-3 opacity-0')}
+                className={cn("space-y-3 opacity-0")}
               >
                 <div className="flex items-center gap-3">
                   <div className="flex size-9 shrink-0 items-center justify-center rounded-full border">

@@ -13,7 +13,7 @@ import {
   Moon,
   Star,
   Sun,
-} from 'lucide-react';
+} from "lucide-react";
 
 export const Icons = {
   sun: Sun,

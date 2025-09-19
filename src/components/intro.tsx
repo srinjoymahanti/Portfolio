@@ -1,14 +1,14 @@
-'use client';
+"use client";
 
-import { motion } from 'framer-motion';
-import Link from 'next/link';
+import { motion } from "framer-motion";
+import Link from "next/link";
 
-import { Button } from '@/components/button';
-import { Icons } from '@/components/icons';
-import { useSectionInView } from '@/hooks/use-section-in-view';
+import { Button } from "@/components/button";
+import { Icons } from "@/components/icons";
+import { useSectionInView } from "@/hooks/use-section-in-view";
 
 export const Intro = () => {
-  const { ref } = useSectionInView('Home');
+  const { ref } = useSectionInView("Home");
 
   return (
     <section
@@ -20,7 +20,7 @@ export const Intro = () => {
         initial={{ opacity: 0, scale: 0 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{
-          type: 'tween',
+          type: "tween",
           duration: 0.2,
         }}
       >
@@ -40,10 +40,10 @@ export const Intro = () => {
         animate={{ opacity: 1, y: 0 }}
         className="font-heading max-w-3xl text-4xl font-extrabold md:text-5xl"
       >
-        Hi I&#39;m{' '}
+        Hi I&#39;m{" "}
         <span className="bg-gradient-to-r from-rose-700 to-pink-600 bg-clip-text text-transparent">
           Srinjoy Mahanti
-        </span>{' '}
+        </span>{" "}
         <br />
       </motion.h1>
       <motion.p
@@ -55,7 +55,7 @@ export const Intro = () => {
         className="text-muted-foreground max-w-xl"
       >
         A software developer with a passion for creating seamless digital experiences.
-        I specialize in building robust applications that solve real-world problems. Let's connect and create something impactful together.
+        I specialize in building robust applications that solve real-world problems. Let"s connect and create something impactful together.
       </motion.p>
       <motion.div
         initial={{ opacity: 0, y: 100 }}

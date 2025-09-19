@@ -1,7 +1,7 @@
-import { env } from '@/env.mjs';
+import { env } from "@/env.mjs";
 
 export const siteConfig = {
-  title: 'Srinjoy Mahanti | Portfolio',
+  title: "Srinjoy Mahanti | Portfolio",
   description:
     "Hello, I'm Srinjoy. I am full-stack developer from India. I enjoy building sites and apps. My focus is React.",
   keywords: [
@@ -26,6 +26,6 @@ export const siteConfig = {
     'Programming',
     'Tech enthusiast',
   ],
-  url: env.SITE_URL || 'https://example.com',
-  googleSiteVerificationId: env.GOOGLE_SITE_VERIFICATION_ID || '',
+  url: env.SITE_URL || "https://example.com",
+  googleSiteVerificationId: env.GOOGLE_SITE_VERIFICATION_ID || "",
 };

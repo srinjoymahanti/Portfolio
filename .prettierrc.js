@@ -2,8 +2,7 @@
 //   endOfLine: 'auto',
 //   semi: true,
 //   doubleQuote: true,
-//   singleQuote: false,
-//   jsxSingleQuote: false,
+//   jsxDoubleQuote: true,
 //   trailingComma: 'es5',
 //   tabWidth: 2,
 // };

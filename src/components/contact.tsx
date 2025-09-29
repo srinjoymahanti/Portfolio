@@ -80,7 +80,7 @@ export const Contact = () => {
             htmlFor="email"
             className={cn(
               "text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70",
-              errors.email?.message && "text-destructive"
+              errors.email?.message && "text-destructive",
             )}
           >
             Email
@@ -92,7 +92,7 @@ export const Contact = () => {
             {...register("email")}
             className={cn(
               "border-input bg-background ring-offset-background placeholder:text-muted-foreground focus-visible:ring-ring mt-2 flex h-10 w-full rounded-md border px-3 py-2 text-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50",
-              errors.email?.message && "border-destructive"
+              errors.email?.message && "border-destructive",
             )}
           />
           {errors.email?.message && (
@@ -106,7 +106,7 @@ export const Contact = () => {
             htmlFor="message"
             className={cn(
               "text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70",
-              errors.message?.message && "text-destructive"
+              errors.message?.message && "text-destructive",
             )}
           >
             Message
@@ -117,7 +117,7 @@ export const Contact = () => {
             {...register("message")}
             className={cn(
               "border-input bg-background ring-offset-background placeholder:text-muted-foreground focus-visible:ring-ring mt-2 flex h-60 w-full resize-none rounded-md border px-3 py-2 text-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50",
-              errors.message?.message && "border-destructive"
+              errors.message?.message && "border-destructive",
             )}
           ></textarea>
           {errors.message?.message && (

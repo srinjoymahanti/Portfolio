@@ -17,7 +17,7 @@ type TActiveSectionContext = {
 };
 
 export const ActiveSectionContext = createContext<TActiveSectionContext | null>(
-  null
+  null,
 );
 
 export const ActiveSectionProvider = ({ children }: PropsWithChildren) => {
@@ -43,7 +43,7 @@ export const useActiveSection = () => {
 
   if (context === null) {
     throw new Error(
-      "useActiveSection must be used within an ActiveSectionProvider"
+      "useActiveSection must be used within an ActiveSectionProvider",
     );
   }
 

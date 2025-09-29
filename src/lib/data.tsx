@@ -1,8 +1,4 @@
-import Link from "next/link";
-
-import { buttonVariants } from "@/components/button";
 import { Icons } from "@/components/icons";
-import { cn } from "@/lib/utils";
 
 export const links = [
   {
@@ -37,7 +33,8 @@ export const projectsData = [
     links: {
       preview: "",
       github: "https://github.com/srinjoymahanti/streamify-video-calls-master",
-      githubApi: "https://api.github.com/repos/srinjoymahanti/streamify-video-calls-master",
+      githubApi:
+        "https://api.github.com/repos/srinjoymahanti/streamify-video-calls-master",
     },
   },
   {
@@ -49,7 +46,8 @@ export const projectsData = [
     links: {
       preview: "",
       github: "https://github.com/srinjoymahanti/TextToImageGenerator",
-      githubApi: "https://api.github.com/repos/srinjoymahanti/TextToImageGenerator",
+      githubApi:
+        "https://api.github.com/repos/srinjoymahanti/TextToImageGenerator",
     },
   },
 ] as const;
@@ -77,7 +75,18 @@ export const experiencesData = [
     description:
       "I am currently pursuing my undergraduate studies in Information Technology at Netaji Subhash Engineering College, Kolkata. This program is providing me with a strong foundation in computer science and practical experience in software development, algorithms, and problem-solving.",
     period: "2023-present",
-    technologies: ["C", "Python", "Java", "HTML" ,"CSS","Javascript","React","Node.js","Express.js","MongoDB"],
+    technologies: [
+      "C",
+      "Python",
+      "Java",
+      "HTML",
+      "CSS",
+      "Javascript",
+      "React",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+    ],
   },
 ] as const;
 
@@ -91,7 +100,7 @@ export const skillsData = [
   { icon: <Icons.java className="size-12" /> },
   { icon: <Icons.tailwind className="size-12" /> },
   { icon: <Icons.typescript className="size-12" /> },
-  
+
   // { icon: <Icons.redux className="size-12" /> },
   // { icon: <Icons.nextjs className="size-12" /> },
   // { icon: <Icons.nestjs className="size-12" /> },
